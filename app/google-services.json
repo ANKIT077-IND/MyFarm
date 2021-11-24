@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "618616083960",
+    "project_id": "my-farm-1fdde",
+    "storage_bucket": "my-farm-1fdde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618616083960:android:2f5ce334de0314756d320d",
+        "android_client_info": {
+          "package_name": "com.codewithankit.myfarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618616083960-uofog39k8l3fmac98jecc60ajab8mgaq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMvjf3Wwt5xEFeLLhYaayWouFRxirrpUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618616083960-uofog39k8l3fmac98jecc60ajab8mgaq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Enter Farm Data"
+        android:id="@+id/farmdata"
+        android:icon="@drawable/farmdata"
+        android:orderInCategory="1"/>
+    <item android:title="Review Farm Data"
+        android:id="@+id/reviewfarmdata"
+        android:icon="@drawable/review"
+        android:orderInCategory="2"/>
+    <item android:title="Profile"
+        android:id="@+id/Profile"
+        android:icon="@drawable/user"
+        android:orderInCategory="3"/>
+
+</menu>

@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Enter_Farm_dataFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Land Ownership:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/LandOwnership"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tillage:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/tillage"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tractor:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/tractor"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Own:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/own"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="On Lease:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/on_lease"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bullock:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Bullock"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Watering Soil:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Watering_Soil"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Water service on lease:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Water_lease"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Water from Tube well:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Water_Tubewell"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Transportation Cost:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Transportation_Cost"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Motorised:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Motorised"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Transportation Bullock:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/transportatonBullock"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manure and Fertilizer Application:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/manure"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manure :"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/mmanure"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home produced Manure per animal:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Home_produced"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Expenses for maintaining one cow per season:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/cow_per_season"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Water required in manure and fertilizer application:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/waterrequired"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fertilizer Water service on lease:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/weteronlease"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fertilizer Water from Tube well:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/wetertubewell"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fertilizer Transportation Cost:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Fertilizertransportcost"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fertilizer Motorised:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/fertilizermotorised"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fertilizer Bullock:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/fertilizerbullock"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Labour for Manure Application:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/labour"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fertilizer:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Fertilizer"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plantation:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Plantation"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seeds:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Seeds"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quantity of seeds re-utilised:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Quantityofseeds"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Water required in manure and fertilizer application:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Plantation_Water_required"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plantation Water service on lease:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/PlantationWaterservices"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plantation Water from Tube well:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Plantation_Tubewell"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plantation Transportation Cost:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Plantation_TransportationCost"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plantation Motorised:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Plantation_Motorised"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plantation Bullock:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Plantation_Bullock"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plantation labour:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Plantation_labour"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Care:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Plant_Care"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fungicide:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Fungicide"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quantity of seeds re-utilised:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/plantcareQuantity_of_seeds"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Care Water required in manure and fertilizer application:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Plant_Carewaterrequired"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Care Water service on lease:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/PlantcareWaterservice"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Care Water from Tube well:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Plant_Caretubewell"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Care Transportation Cost:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/PlantCareTransportationCost"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Care Motorised:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/PlantCareMotorised"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Care Bullock:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/PlantCareBullock"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Care Periodic Irrigation:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/PlantCarePeriodic_Irrigation"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Care Weeding:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/PlantCareWeeding"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harvesting and Storage:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/harvesting"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harvesting:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/harvestingtype"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+           <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Self:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Self"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manual:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Manual"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mechanical:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Mechanical"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lease:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Lease"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Lease Manual:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Lease_manual"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lease Mechanical:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+            <Spinner
+                android:id="@+id/Lease_Mechanical"
+                android:layout_width="match_parent"
+                android:theme="@style/spinner"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Submit"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:textAllCaps="false"
+                android:id="@+id/Submit"/>
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

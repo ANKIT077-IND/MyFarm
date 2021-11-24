@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/logintoolbar"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+       style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginRight="30dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Email"
+            android:paddingLeft="20dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/email"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Password"
+            android:paddingLeft="20dp"
+            android:inputType="textPassword"
+            android:id="@+id/password"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="05dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Reset Password"
+        android:gravity="right"
+        android:textSize="20dp"
+        android:id="@+id/resetpassword"
+        android:textColor="@color/colorPrimary" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Login"
+        android:id="@+id/login"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="@drawable/btn_background"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/colorPrimary"/>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Don't have an account?"
+                 android:layout_marginTop="30dp"
+                 android:textSize="18sp"
+                 android:layout_marginLeft="35dp"/>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Register now"
+                 android:textSize="18sp"
+                 android:id="@+id/register"
+                 android:layout_marginLeft="05dp"
+                 android:textColor="@color/colorPrimary"
+                 android:layout_marginRight="20dp"
+                 android:layout_marginTop="30dp"/>
+
+         </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
